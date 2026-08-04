@@ -84,3 +84,22 @@
     }
 
 }
+@media (max-width:768px){
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .btn-primary,
+
+    .btn-outline{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
