@@ -1,0 +1,33 @@
+/* ==========================================
+   GOOGLE FONTS
+========================================== */
+
+:root{
+
+    /* Brand */
+
+    --primary:#081C3A;
+    --secondary:#155EEF;
+    --accent:#1BC5D8;
+
+    --white:#FFFFFF;
+    --light:#F8FAFC;
+    --gray:#6B7280;
+    --dark:#1F2937;
+
+    /* Typography */
+
+    --heading:'Poppins',sans-serif;
+    --body:'Inter',sans-serif;
+
+    /* Spacing */
+
+    --section-padding:120px;
+
+    --radius:20px;
+
+    --transition:.35s ease;
+
+    --shadow:0 20px 60px rgba(0,0,0,.08);
+
+}
