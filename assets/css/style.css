@@ -279,9 +279,9 @@ position:relative;
 
 .hero-image img{
 
-    width:100%;
+        width:115%;
 
-    border-radius:30px;
+    border-radius:28px;
 
     box-shadow:0 35px 90px rgba(0,0,0,.45);
    border-radius:28px;
@@ -290,7 +290,11 @@ transform:rotate(-2deg);
 
 transition:.5s;
 
+     max-width:720px;
 
+       box-shadow:
+
+    0 40px 90px rgba(0,0,0,.45);
 }
 
 .hero-image img:hover{
