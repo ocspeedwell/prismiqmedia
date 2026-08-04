@@ -248,7 +248,7 @@ ul{
 
     align-items:center;
 
-    padding-top:100px;
+    padding-top:150px;
 position:relative;
 
     overflow:hidden;
@@ -314,7 +314,7 @@ position:relative;
     line-height:1.05;
 
     margin:25px 0;
-
+   max-width:100%;
 }
 
 .hero-content p{
@@ -381,7 +381,7 @@ transform:rotate(0deg) scale(1.03);
 
     gap:20px;
 
-    margin-top:40px;
+    margin-top:50px;
 
     margin-bottom:45px;
 
