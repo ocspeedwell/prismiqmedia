@@ -184,4 +184,72 @@ ul{
 
     box-shadow:var(--shadow);
 
+}.hero{
+
+    background:#071A3D;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-top:100px;
+
+}
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+
+.hero-content h1{
+
+    color:#fff;
+
+    font-size:4.8rem;
+
+    line-height:1.05;
+
+    margin:25px 0;
+
+}
+
+.hero-content p{
+
+    color:rgba(255,255,255,.82);
+
+    font-size:1.15rem;
+
+    max-width:620px;
+
+}
+
+.hero-badge{
+
+    color:#14C6D4;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    border-radius:30px;
+
+    box-shadow:0 30px 80px rgba(0,0,0,.35);
+
 }
