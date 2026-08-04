@@ -1,15 +1,9 @@
-const header = document.querySelector(".header");
+const menuToggle=document.querySelector(".menu-toggle");
 
-window.addEventListener("scroll",()=>{
+const navMenu=document.querySelector(".nav-menu");
 
-    if(window.scrollY>40){
+menuToggle.addEventListener("click",()=>{
 
-        header.classList.add("scrolled");
-
-    }else{
-
-        header.classList.remove("scrolled");
-
-    }
+navMenu.classList.toggle("active");
 
 });
