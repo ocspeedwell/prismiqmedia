@@ -1,0 +1,187 @@
+/* =====================================================
+   GLOBAL STYLES
+===================================================== */
+
+body{
+    font-family:var(--body);
+    color:var(--dark);
+    background:var(--white);
+    overflow-x:hidden;
+    line-height:1.7;
+}
+
+.container{
+    width:min(var(--container),90%);
+    margin:auto;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    transition:var(--transition);
+
+}
+
+.header.scrolled{
+
+    background:rgba(7,26,61,.88);
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:0 10px 40px rgba(0,0,0,.12);
+
+}
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+.navbar{
+
+    height:90px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* Logo */
+
+.logo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    line-height:1;
+
+}
+
+.logo-main{
+
+    font-family:var(--heading);
+
+    font-size:2rem;
+
+    font-weight:800;
+
+    color:#fff;
+
+}
+
+.logo-sub{
+
+    margin-top:6px;
+
+    letter-spacing:6px;
+
+    color:var(--accent);
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+}
+
+/* Navigation */
+
+.nav-menu{
+
+    display:flex;
+
+    gap:45px;
+
+}
+
+.nav-menu a{
+
+    color:#fff;
+
+    font-weight:500;
+
+    position:relative;
+
+    transition:var(--transition);
+
+}
+
+.nav-menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--accent);
+
+    transition:var(--transition);
+
+}
+
+.nav-menu a:hover::after{
+
+    width:100%;
+
+}
+
+/* CTA */
+
+.nav-button{
+
+    padding:15px 30px;
+
+    border-radius:999px;
+
+    background:var(--secondary);
+
+    color:#fff;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.nav-button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:var(--shadow);
+
+}
