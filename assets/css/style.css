@@ -73,7 +73,17 @@ ul{
     align-items:center;
 
 }
+.menu-toggle{
 
+    display:none;
+
+    color:#fff;
+
+    font-size:2rem;
+
+    cursor:pointer;
+
+}
 /* Logo */
 
 .logo{
