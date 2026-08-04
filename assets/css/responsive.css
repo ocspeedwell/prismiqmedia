@@ -6,10 +6,81 @@
 
 }
 
-/* ==========================================
-   MOBILE
-========================================== */
 
-@media (max-width: 768px){
+/* ===============================
+   MOBILE
+================================ */
+
+@media (max-width:768px){
+
+    .navbar{
+
+        height:90px;
+
+    }
+
+    .nav-menu{
+
+        display:none;
+
+    }
+
+    .nav-button{
+
+        display:none;
+
+    }
+
+    .menu-toggle{
+
+        display:block;
+
+    }
+
+    .hero{
+
+        padding-top:120px;
+
+    }
+
+    .hero-grid{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+    .hero-content{
+
+        order:1;
+
+    }
+
+    .hero-image{
+
+        order:2;
+
+        margin-top:10px;
+
+    }
+
+    .hero h1{
+
+        font-size:4rem;
+
+        line-height:1;
+
+        letter-spacing:-2px;
+
+    }
+
+    .hero-content p{
+
+        font-size:1.05rem;
+
+        max-width:100%;
+
+    }
 
 }
