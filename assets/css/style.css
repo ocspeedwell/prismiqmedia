@@ -202,9 +202,31 @@ ul{
     align-items:center;
 
     padding-top:100px;
+position:relative;
 
+    overflow:hidden;
 }
 
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:700px;
+
+    height:700px;
+
+    background:radial-gradient(circle,
+    rgba(20,198,212,.18) 0%,
+    rgba(20,198,212,0) 70%);
+
+    top:-180px;
+
+    left:-150px;
+
+    z-index:0;
+}
 .hero-grid{
 
     display:grid;
@@ -214,6 +236,10 @@ ul{
     align-items:center;
 
     gap:80px;
+   
+    position:relative;
+
+    z-index:2;
 
 }
 
