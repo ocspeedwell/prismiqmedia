@@ -1,0 +1,27 @@
+:root{
+
+--primary:#071A3D;
+--secondary:#155EEF;
+--accent:#14C6D4;
+
+--dark:#1D2939;
+--text:#475467;
+
+--light:#F8FAFC;
+--white:#FFFFFF;
+
+--radius:24px;
+
+--shadow:0 25px 60px rgba(0,0,0,.08);
+
+--transition:.35s ease;
+
+--container:1280px;
+
+--section:120px;
+
+--heading:'Poppins',sans-serif;
+
+--body:'Inter',sans-serif;
+
+}
