@@ -16,6 +16,10 @@
     .navbar{
 
         height:90px;
+       }
+.hero h1{
+    font-size:3.8rem;
+    line-height:1;
 
     }
 .container{
