@@ -29,7 +29,7 @@
     --transition:.35s ease;
 
     --shadow:0 20px 60px rgba(0,0,0,.08);
-
+} 
 
 body{
 
@@ -41,7 +41,7 @@ body{
 
     line-height:1.8;
 
-
+} 
 
 h1,h2,h3,h4{
 
@@ -51,7 +51,7 @@ h1,h2,h3,h4{
 
     color:var(--primary);
 
-
+} 
 
 h1{
 
@@ -59,13 +59,13 @@ h1{
 
     font-weight:800;
 
-
+} 
 
 h2{
 
     font-size:clamp(2.3rem,5vw,4rem);
 
-
+} 
 
 h3{
 
