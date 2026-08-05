@@ -444,7 +444,7 @@ padding:18px 36px;
 }
 
 .difference-card{
-
+min-height:330px;
     background:#fff;
 
     border:1px solid #E5E7EB;
@@ -461,33 +461,35 @@ padding:18px 36px;
 
 .difference-card:hover{
 
-    transform:translateY(-10px);
 
     border-color:#14C6D4;
 
-    box-shadow:0 30px 60px rgba(0,0,0,.08);
+    box-shadow:0 25px 60px rgba(0,0,0,12);
+  transform:translateY(-10px);
 
 }
 
 .card-icon{
 
-    width:70px;
+    width:82px;
 
-    height:70px;
+    height:82px;
 
-    border-radius:18px;
+    border-radius:50%;
 
-    background:rgba(20,198,212,.12);
-
+    background:linear-gradient{135deg,
+        #14C6D4,
+        #155EEF
+    )
+    color:#fff;
     display:flex;
-
-    justify-content:center;
-
+    align-items:center;
+justify-content:center;
     align-items:center;
 
     font-size:2rem;
 
-    margin-bottom:30px;
+    margin-bottom:35px;
 
 }
 
