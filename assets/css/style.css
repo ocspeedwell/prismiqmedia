@@ -290,6 +290,7 @@ padding-bottom:140px;
 
     transparent 70%);
 }
+
 .hero-grid{
 
     display:grid;
@@ -305,6 +306,7 @@ padding-bottom:140px;
     z-index:2;
 
 }
+
 .hero h1{
 
     font-size:3.8rem;
@@ -485,54 +487,65 @@ padding:18px 36px;
 
 .difference-grid{
 
-    margin-top:90px;
+    margin-top:70px;
 
     display:grid;
 
     grid-template-columns:repeat(2,1fr);
 
-    gap:35px;
+    gap:32px;
 
 }
 
 .difference-card{
-min-height:330px;
-    background:#fff;
-
+ background:#fff;
     border:1px solid #E5E7EB;
-
     border-radius:24px;
+    padding:48px;
+    min-height:280px;
 
-    padding:45px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
 
-    transition:.4s ease;
+    transition:.35s ease;
 
-    box-shadow:0 10px 35px rgba(0,0,0,.05);
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
 
 }
 
 .difference-card:hover{
 
 
+     transform:translateY(-8px);
+
     border-color:#14C6D4;
 
-    box-shadow:0 25px 60px rgba(0,0,0,12);
-  transform:translateY(-10px);
+    box-shadow:0 30px 70px rgba(0,0,0,.12);
 
 }
 
 .card-icon{
 
-    width:82px;
+    width:72px;
 
-    height:82px;
+    height:72px;
 
-    border-radius:50%;
+    border-radius:18px;
 
-   background:linear-gradient(
-    135deg,
-    #14C6D4,
-    #155EEF
+    background:linear-gradient(135deg,#14C6D4,#155EEF);
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:2rem;
+
+    margin-bottom:28px;
 );
    
     color:#fff;
@@ -549,18 +562,17 @@ justify-content:center;
 
 .difference-card h3{
 
-    font-size:1.6rem;
-
+    font-size:1.55rem;
     color:#071A3D;
-
     margin-bottom:18px;
+    font-weight:700;
 
 }
 
 .difference-card p{
 
-    color:#667085;
-
-    line-height:1.9;
+      color:#667085;
+    line-height:1.8;
+    font-size:1rem;
 
 }
