@@ -185,3 +185,61 @@ ul{
     box-shadow:var(--shadow);
 
 }
+
+/*======================================
+THE PRISMIQ DIFFERENCE
+======================================*/
+
+.philosophy{
+
+    background:#fff;
+
+    padding:140px 0;
+
+}
+
+.section-heading{
+
+    max-width:850px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.section-heading span{
+
+    display:inline-block;
+
+    color:#14C6D4;
+
+    font-size:.9rem;
+
+    letter-spacing:4px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.section-heading h2{
+
+    font-size:3.4rem;
+
+    color:#071A3D;
+
+    margin-bottom:30px;
+
+}
+
+.section-heading p{
+
+    font-size:1.2rem;
+
+    color:#667085;
+
+    line-height:1.9;
+
+}
