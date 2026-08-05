@@ -262,7 +262,7 @@ ul{
 
     padding-top:150px;
 position:relative;
-padding-bottom:180px;
+padding-bottom:140px;
     overflow:hidden;
 }
 
@@ -379,6 +379,7 @@ margin-top:40px;
 
     transform:rotate(-2deg); 
 }
+
 .hero-image img:hover{
 
 transform:rotate(0deg) scale(1.03);
