@@ -49,20 +49,16 @@ ul{
 }
 
 .section-heading span{
-
     color:#14C6D4;
-
     font-weight:700;
-
     letter-spacing:5px;
-
 }
 
+.section-heading h2{
     font-size:3.8rem;
-
     margin-bottom:35px;
-
 }
+
 
 .header.scrolled{
 
@@ -493,10 +489,12 @@ min-height:330px;
 
     border-radius:50%;
 
-    background:linear-gradient{135deg,
-        #14C6D4,
-        #155EEF
-    )
+   background:linear-gradient(
+    135deg,
+    #14C6D4,
+    #155EEF
+);
+   
     color:#fff;
     display:flex;
     align-items:center;
