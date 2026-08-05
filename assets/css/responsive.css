@@ -90,13 +90,32 @@
         grid-template-columns:1fr;
 
     }
-
-    .difference-card{
-
-        padding:55px;
-
-    }
+.difference-card{
+    padding:40px;
 }
 
+.section-heading{
+    text-align:left;
+    margin-bottom:50px;
+}
 
- 
+.section-heading span{
+    display:block;
+    margin-bottom:15px;
+}
+
+.section-heading h2{
+    font-size:2.3rem;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.section-heading p{
+    font-size:1rem;
+    line-height:1.8;
+}
+
+.philosophy{
+    padding:80px 0;
+}
+   }
