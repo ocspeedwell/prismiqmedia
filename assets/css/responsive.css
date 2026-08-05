@@ -17,16 +17,20 @@
 
         height:90px;
        }
+   
 .hero h1{
     font-size:3.8rem;
     line-height:1;
 
     }
+   
 .container{
         width:100%;
         padding:0 32px;
         box-sizing:border-box;
     }
+
+   
     .nav-menu{
 
         position:fixed;
