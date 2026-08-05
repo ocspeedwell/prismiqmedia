@@ -48,6 +48,22 @@ ul{
 
 }
 
+.section-heading span{
+
+    color:#14C6D4;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+
+}
+
+    font-size:3.8rem;
+
+    margin-bottom:35px;
+
+}
+
 .header.scrolled{
 
     background:rgba(7,26,61,.88);
