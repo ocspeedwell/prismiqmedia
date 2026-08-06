@@ -698,3 +698,179 @@ padding:18px 36px;
     transform:translateX(6px);
 
 }
+
+/* ==========================================
+   WHY PRISMIQ
+========================================== */
+
+.why-prismiq{
+
+    padding:140px 0;
+
+    background:#071A3D;
+
+    color:#fff;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:1.3fr .9fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    color:#14C6D4;
+
+    letter-spacing:5px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+    font-size:.85rem;
+
+}
+
+.why-content h2{
+
+    font-size:3.5rem;
+
+    line-height:1.1;
+
+    margin-bottom:30px;
+
+}
+
+.intro{
+
+    color:rgba(255,255,255,.78);
+
+    font-size:1.1rem;
+
+    line-height:1.9;
+
+    margin-bottom:55px;
+
+}
+
+.why-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:35px;
+
+}
+
+.why-item{
+
+    display:flex;
+
+    gap:24px;
+
+    align-items:flex-start;
+
+}
+
+.check{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#14C6D4;
+
+    color:#071A3D;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:1.3rem;
+
+    font-weight:bold;
+
+    flex-shrink:0;
+
+}
+
+.why-item h4{
+
+    margin-bottom:10px;
+
+    font-size:1.3rem;
+
+}
+
+.why-item p{
+
+    color:rgba(255,255,255,.72);
+
+}
+
+.why-stats{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+}
+
+.stat-card{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:40px;
+
+    backdrop-filter:blur(12px);
+
+    transition:.35s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.stat-card h3{
+
+    color:#14C6D4;
+
+    font-size:2rem;
+
+    margin-bottom:12px;
+
+}
+
+.stat-card span{
+
+    color:rgba(255,255,255,.75);
+
+    line-height:1.8;
+
+}
