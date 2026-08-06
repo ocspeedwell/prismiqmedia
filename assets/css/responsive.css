@@ -89,6 +89,48 @@
 
     }
    
+   /* HERO */
+
+.hero{
+    padding:140px 0 80px;
+}
+
+.hero-grid{
+    grid-template-columns:1fr;
+    gap:50px;
+}
+
+.hero-content{
+    width:100%;
+    max-width:100%;
+}
+
+.hero-grid > *{
+    min-width:0;
+}
+
+.hero-content h1{
+    font-size:3.6rem;
+    line-height:1.05;
+    letter-spacing:-1px;
+    word-break:normal;
+}
+
+.hero-content p{
+    font-size:1rem;
+}
+
+.hero-image{
+    order:2;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:100%;
+    margin-top:0;
+    transform:none;
+}
+   
    .difference-grid{
 
         grid-template-columns:1fr;
