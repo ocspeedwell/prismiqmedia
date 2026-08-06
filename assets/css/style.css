@@ -828,13 +828,12 @@ padding:18px 36px;
 }
 
 .why-stats{
-
-    display:flex;
-
+display:flex;
     flex-direction:column;
-
     gap:28px;
-    position:absolute;
+    position:relative;
+    width:100%;
+ 
 }
 
 .stat-card{
