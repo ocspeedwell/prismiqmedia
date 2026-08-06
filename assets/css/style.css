@@ -350,7 +350,7 @@ ul{
 
     align-items:center;
 
-    margin-top:40px;
+    margin-top:0;
    
         width:115%;
 
@@ -382,7 +382,7 @@ transform:rotate(0deg) scale(1.03);
 
     margin-top:50px;
 
-    margin-bottom:45px;
+    margin-bottom:15px;
 
     flex-wrap:wrap;
 }
