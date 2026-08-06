@@ -538,9 +538,9 @@ padding:18px 36px;
     font-size:1rem;
 
 }
-/*=========================================
-CAPABILITIES
-=========================================*/
+/* ==========================================
+   CAPABILITIES
+========================================== */
 
 .capabilities{
 
@@ -556,7 +556,7 @@ CAPABILITIES
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:32px;
+    gap:30px;
 
     margin-top:80px;
 
@@ -566,49 +566,79 @@ CAPABILITIES
 
     background:#fff;
 
-    border-radius:24px;
+    padding:50px;
 
-    padding:45px;
+    border-radius:28px;
 
     border:1px solid #E5E7EB;
 
-    transition:.35s ease;
+    transition:.45s ease;
 
-    min-height:300px;
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.04);
+
+}
+
+.capability-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:4px;
+
+    height:0;
+
+    background:#14C6D4;
+
+    transition:.45s;
 
 }
 
 .capability-card:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-10px);
 
-    border-color:#14C6D4;
-
-    box-shadow:0 25px 60px rgba(0,0,0,.08);
+    box-shadow:0 35px 70px rgba(0,0,0,.12);
 
 }
 
-.capability-number{
+.capability-card:hover::before{
 
-    font-size:3rem;
+    height:100%;
+
+}
+
+.service-number{
+
+    font-size:4rem;
 
     font-weight:800;
 
     color:#14C6D4;
 
-    margin-bottom:30px;
+    margin-bottom:25px;
 
-    font-family:var(--heading);
+    line-height:1;
 
 }
 
 .capability-card h3{
 
-    font-size:1.5rem;
+    font-size:2rem;
 
     color:#071A3D;
 
-    margin-bottom:18px;
+    margin-bottom:20px;
+
+    line-height:1.3;
 
 }
 
@@ -616,6 +646,55 @@ CAPABILITIES
 
     color:#667085;
 
-    line-height:1.8;
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+}
+
+.capability-card a{
+
+    color:#155EEF;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.capability-card:hover a{
+
+    letter-spacing:1px;
+
+}
+.card-arrow{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#071A3D;
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:1.2rem;
+
+    transition:.35s;
+
+}
+
+.capability-card:hover .card-arrow{
+
+    background:#14C6D4;
+
+    transform:translateX(6px);
 
 }
