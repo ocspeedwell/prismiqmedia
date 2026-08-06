@@ -11,10 +11,13 @@
 
         gap:60px;
     }
+}
+.work-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
 
 }
-
-
 /* ===============================
    MOBILE
 ================================ */
@@ -228,6 +231,32 @@
         padding:30px;
 
     }
+
+}
+
+                          .work{
+
+    padding:90px 0;
+
+}
+
+.work-grid{
+
+    grid-template-columns:1fr;
+
+    gap:28px;
+
+}
+
+.project-content{
+
+    padding:28px;
+
+}
+
+.project-content h3{
+
+    font-size:1.5rem;
 
 }
 }
