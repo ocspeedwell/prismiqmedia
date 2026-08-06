@@ -16,7 +16,40 @@
 ================================ */
 
 @media (max-width:768px){
+.hero{
+    padding:140px 0 80px;
+}
 
+.hero-grid{
+    grid-template-columns:1fr;
+    gap:50px;
+}
+
+.hero-content{
+    width:100%;
+    max-width:100%;
+}
+
+.hero-content h1{
+    font-size:3.2rem;
+    line-height:1.05;
+    letter-spacing:-1px;
+    word-break:break-word;
+}
+
+.hero-content p{
+    font-size:1rem;
+}
+
+.hero-image{
+    margin-top:30px;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:100%;
+    transform:none;
+}
     .navbar{
 
         height:90px;
