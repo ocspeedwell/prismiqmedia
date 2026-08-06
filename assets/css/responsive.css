@@ -18,6 +18,14 @@
 
 
 }
+
+                          .impact-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:50px;
+
+}
 /* ===============================
    MOBILE
 ================================ */
@@ -232,7 +240,7 @@
 
     }
 
-}
+
 
                           .work{
 
@@ -257,6 +265,25 @@
 .project-content h3{
 
     font-size:1.5rem;
+
+}
+                          .impact{
+
+    padding:70px 0;
+
+}
+
+.impact-grid{
+
+    grid-template-columns:1fr;
+
+    gap:45px;
+
+}
+
+.impact-item h3{
+
+    font-size:3rem;
 
 }
 }
