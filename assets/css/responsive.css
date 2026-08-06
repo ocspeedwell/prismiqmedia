@@ -249,13 +249,16 @@
 }
 
 .why-grid{
+        display:grid;
         grid-template-columns:1fr;
         gap:50px;
     }
 
+     .why-content,
     .why-stats{
         width:100%;
     }
+
 
     .stat-card{
         width:100%;
