@@ -9,9 +9,9 @@
 
         grid-template-columns:1fr;
 
-        gap:60px;
+        gap:50px;
     }
-}
+
 .work-grid{
 
     grid-template-columns:repeat(2,1fr);
@@ -248,13 +248,21 @@
 
 }
 
-.work-grid{
+.why-grid{
+        grid-template-columns:1fr;
+        gap:50px;
+    }
 
-    grid-template-columns:1fr;
+    .why-stats{
+        width:100%;
+    }
 
-    gap:28px;
+    .stat-card{
+        width:100%;
+        padding:32px;
+        box-sizing:border-box;
+    }
 
-}
 
 .project-content{
 
