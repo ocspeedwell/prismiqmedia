@@ -5,6 +5,11 @@
 @media (max-width: 992px){ .capabilities-grid{
 
         grid-template-columns:repeat(2,1fr);
+   .why-grid{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
     }
 
 }
@@ -189,6 +194,40 @@
 .capability-card h3{
 
     font-size:1.8rem;
+
+}
+   
+    .why-prismiq{
+
+        padding:90px 0;
+
+    }
+
+    .why-content h2{
+
+        font-size:2.5rem;
+
+    }
+
+    .why-item{
+
+        gap:18px;
+
+    }
+
+    .check{
+
+        width:44px;
+
+        height:44px;
+
+    }
+
+    .stat-card{
+
+        padding:30px;
+
+    }
 
 }
 }
