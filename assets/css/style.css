@@ -724,7 +724,11 @@ padding:18px 36px;
     align-items:center;
 
 }
-
+.why-left,
+.why-right{
+    width:100%;
+    min-width:0;
+   }
 .section-tag{
 
     display:inline-block;
