@@ -253,17 +253,15 @@ ul{
 .hero{
 
     background:#071A3D;
-
-    min-height:100vh;
-
-    display:flex;
- padding:180px 0;
-    align-items:center;
-
+   position:relative;
+   overflow:hidden;
+   display:flex;
+   align-items:center; 
+   min-height:100vh;
+    padding:120px 0 80px;
     padding-top:150px;
-position:relative;
-padding-bottom:140px;
-    overflow:hidden;
+padding-bottom:180px;
+    
 }
 
 .hero::before{
