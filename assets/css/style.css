@@ -717,9 +717,9 @@ padding:18px 36px;
 
     display:grid;
 
-    grid-template-columns:1.3fr .9fr;
+    grid-template-columns:1fr 1fr;
 
-    gap:80px;
+    gap:60px;
 
     align-items:center;
 
