@@ -538,3 +538,84 @@ padding:18px 36px;
     font-size:1rem;
 
 }
+/*=========================================
+CAPABILITIES
+=========================================*/
+
+.capabilities{
+
+    padding:140px 0;
+
+    background:#F8FAFC;
+
+}
+
+.capabilities-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:32px;
+
+    margin-top:80px;
+
+}
+
+.capability-card{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:45px;
+
+    border:1px solid #E5E7EB;
+
+    transition:.35s ease;
+
+    min-height:300px;
+
+}
+
+.capability-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#14C6D4;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.08);
+
+}
+
+.capability-number{
+
+    font-size:3rem;
+
+    font-weight:800;
+
+    color:#14C6D4;
+
+    margin-bottom:30px;
+
+    font-family:var(--heading);
+
+}
+
+.capability-card h3{
+
+    font-size:1.5rem;
+
+    color:#071A3D;
+
+    margin-bottom:18px;
+
+}
+
+.capability-card p{
+
+    color:#667085;
+
+    line-height:1.8;
+
+}
