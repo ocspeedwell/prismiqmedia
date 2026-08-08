@@ -541,14 +541,89 @@ padding:18px 36px;
 /* ==========================================
    CAPABILITIES
 ========================================== */
+/* ==========================================
+   CAPABILITIES
+========================================== */
 
 .capabilities{
 
-    padding:140px 0;
+    padding:120px 0;
 
-    background:#F8FAFC;
+    background:#fff;
+
+    color:#071A3D;
 
 }
+
+
+/* ==========================================
+   CAPABILITIES INTRO
+========================================== */
+
+.capabilities-heading{
+
+    max-width:900px;
+
+    margin:0 auto 70px;
+
+}
+
+.capabilities-heading > span{
+
+    display:block;
+
+    color:#14C6D4;
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+
+    margin-bottom:25px;
+
+    text-align:left;
+
+}
+
+.capabilities-heading h2{
+
+    color:#071A3D;
+
+    font-family:'Poppins', sans-serif;
+
+    font-size:3.6rem;
+
+    font-weight:700;
+
+    line-height:1.15;
+
+    letter-spacing:-1.5px;
+
+    margin:0 0 28px;
+
+}
+
+.capabilities-heading p{
+
+    color:#667085;
+
+    font-family:'Inter', sans-serif;
+
+    font-size:1.1rem;
+
+    line-height:1.85;
+
+    max-width:800px;
+
+    margin:0;
+
+}
+
+
+/* ==========================================
+   CAPABILITIES GRID
+========================================== */
 
 .capabilities-grid{
 
@@ -558,120 +633,117 @@ padding:18px 36px;
 
     gap:30px;
 
-    margin-top:80px;
-
 }
+
+
+/* ==========================================
+   CAPABILITY CARD
+========================================== */
 
 .capability-card{
 
+    position:relative;
+
     background:#fff;
-
-    padding:50px;
-
-    border-radius:28px;
 
     border:1px solid #E5E7EB;
 
-    transition:.45s ease;
+    border-radius:24px;
 
-    position:relative;
+    padding:42px;
+
+    min-height:380px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    box-sizing:border-box;
 
     overflow:hidden;
 
-    box-shadow:0 12px 35px rgba(0,0,0,.04);
-
-}
-
-.capability-card::before{
-
-    content:"";
-
-    position:absolute;
-
-    left:0;
-
-    top:0;
-
-    width:4px;
-
-    height:0;
-
-    background:#14C6D4;
-
-    transition:.45s;
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease;
 
 }
 
 .capability-card:hover{
 
-    transform:translateY(-10px);
+    transform:translateY(-8px);
 
-    box-shadow:0 35px 70px rgba(0,0,0,.12);
+    border-color:#14C6D4;
 
-}
-
-.capability-card:hover::before{
-
-    height:100%;
+    box-shadow:0 25px 60px rgba(7,26,61,.10);
 
 }
+
+
+/* ==========================================
+   NUMBER
+========================================== */
 
 .service-number{
+
+    color:#14C6D4;
 
     font-size:4rem;
 
     font-weight:800;
 
-    color:#14C6D4;
-
-    margin-bottom:25px;
-
     line-height:1;
-
-}
-
-.capability-card h3{
-
-    font-size:2rem;
-
-    color:#071A3D;
-
-    margin-bottom:20px;
-
-    line-height:1.3;
-
-}
-
-.capability-card p{
-
-    color:#667085;
-
-    line-height:1.9;
 
     margin-bottom:35px;
 
 }
 
-.capability-card a{
 
-    color:#155EEF;
+/* ==========================================
+   TITLE
+========================================== */
 
-    font-weight:700;
+.capability-card h3{
 
-    transition:.3s;
+    color:#071A3D;
+
+    font-family:'Poppins', sans-serif;
+
+    font-size:1.7rem;
+
+    line-height:1.3;
+
+    margin:0 0 18px;
 
 }
 
-.capability-card:hover a{
 
-    letter-spacing:1px;
+/* ==========================================
+   DESCRIPTION
+========================================== */
+
+.capability-card p{
+
+    color:#667085;
+
+    font-size:1rem;
+
+    line-height:1.8;
+
+    margin:0;
 
 }
+
+
+/* ==========================================
+   ARROW
+========================================== */
+
 .card-arrow{
 
-    width:52px;
+    width:54px;
 
-    height:52px;
+    height:54px;
 
     border-radius:50%;
 
@@ -685,9 +757,11 @@ padding:18px 36px;
 
     justify-content:center;
 
-    font-size:1.2rem;
+    font-size:1.3rem;
 
-    transition:.35s;
+    margin-top:auto;
+
+    transition:.35s ease;
 
 }
 
@@ -695,9 +769,12 @@ padding:18px 36px;
 
     background:#14C6D4;
 
+    color:#071A3D;
+
     transform:translateX(6px);
 
 }
+
 
 /* ==========================================
    WHY PRISMIQ
