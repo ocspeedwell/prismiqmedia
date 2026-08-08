@@ -541,45 +541,14 @@ padding:18px 36px;
 /* ==========================================
    CAPABILITIES
 ========================================== */
+/* ==========================================
+   CAPABILITIES
+========================================== */
 
-
-.capabilities-intro {
-    text-align: center;
-    max-width: 1050px;
-    margin: 0 auto 80px;
-}
-
-.capabilities-intro .section-tag {
-    display: block;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.capabilities-intro h2 {
+.capabilities {
+    padding: 120px 0;
+    background: #fff;
     color: #071A3D;
-    font-size: 3.5rem;
-    line-height: 1.12;
-    letter-spacing: -1.5px;
-    margin: 0 auto 30px;
-    max-width: 1000px;
-}
-
-.capabilities-intro p {
-    color: #667085;
-    font-size: 1.1rem;
-    line-height: 1.8;
-    max-width: 950px;
-    margin: 0 auto;
-}
-
-.capabilities{
-
-    padding:120px 0;
-
-    background:#fff;
-
-    color:#071A3D;
-
 }
 
 
@@ -587,64 +556,41 @@ padding:18px 36px;
    CAPABILITIES INTRO
 ========================================== */
 
-.capabilities-heading{
-
-    max-width:900px;
-
-    margin:0 auto 70px;
-
+.capabilities-intro {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 80px;
+    text-align: center;
 }
 
-.capabilities-heading > span{
-
-    display:block;
-
-    color:#14C6D4;
-
-    font-size:.85rem;
-
-    font-weight:700;
-
-    letter-spacing:5px;
-
-    margin-bottom:25px;
-
-    text-align:left;
-
+.capabilities-intro .section-tag {
+    display: block;
+    color: #14C6D4;
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
-.capabilities-heading h2{
-
-    color:#071A3D;
-
-    font-family:'Poppins', sans-serif;
-
-    font-size:3.6rem;
-
-    font-weight:700;
-
-    line-height:1.15;
-
-    letter-spacing:-1.5px;
-
-    margin:0 0 28px;
-
+.capabilities-intro h2 {
+    color: #071A3D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+    max-width: 1050px;
+    margin: 0 auto 28px;
 }
 
-.capabilities-heading p{
-
-    color:#667085;
-
-    font-family:'Inter', sans-serif;
-
-    font-size:1.1rem;
-
-    line-height:1.85;
-
-    max-width:800px;
-
-    margin:0;
-
+.capabilities-intro p {
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.85;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 
@@ -652,14 +598,10 @@ padding:18px 36px;
    CAPABILITIES GRID
 ========================================== */
 
-.capabilities-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:30px;
-
+.capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 
@@ -667,62 +609,55 @@ padding:18px 36px;
    CAPABILITY CARD
 ========================================== */
 
-.capability-card{
+.capability-card {
+    position: relative;
 
-    position:relative;
+    background: #fff;
 
-    background:#fff;
+    border: 1px solid #E5E7EB;
 
-    border:1px solid #E5E7EB;
+    border-radius: 24px;
 
-    border-radius:24px;
+    padding: 42px;
 
-    padding:42px;
+    min-height: 380px;
 
-    min-height:380px;
+    display: flex;
+    flex-direction: column;
 
-    display:flex;
+    box-sizing: border-box;
 
-    flex-direction:column;
-
-    box-sizing:border-box;
-
-    overflow:hidden;
+    overflow: hidden;
 
     transition:
         transform .35s ease,
         box-shadow .35s ease,
         border-color .35s ease;
-
 }
 
-.capability-card:hover{
+.capability-card:hover {
+    transform: translateY(-8px);
 
-    transform:translateY(-8px);
+    border-color: #14C6D4;
 
-    border-color:#14C6D4;
-
-    box-shadow:0 25px 60px rgba(7,26,61,.10);
-
+    box-shadow: 0 25px 60px rgba(7,26,61,.10);
 }
 
 
 /* ==========================================
-   NUMBER
+   SERVICE NUMBER
 ========================================== */
 
-.service-number{
+.service-number {
+    color: #14C6D4;
 
-    color:#14C6D4;
+    font-size: 4rem;
 
-    font-size:4rem;
+    font-weight: 800;
 
-    font-weight:800;
+    line-height: 1;
 
-    line-height:1;
-
-    margin-bottom:35px;
-
+    margin-bottom: 35px;
 }
 
 
@@ -730,18 +665,16 @@ padding:18px 36px;
    TITLE
 ========================================== */
 
-.capability-card h3{
+.capability-card h3 {
+    color: #071A3D;
 
-    color:#071A3D;
+    font-family: 'Poppins', sans-serif;
 
-    font-family:'Poppins', sans-serif;
+    font-size: 1.7rem;
 
-    font-size:1.7rem;
+    line-height: 1.3;
 
-    line-height:1.3;
-
-    margin:0 0 18px;
-
+    margin: 0 0 18px;
 }
 
 
@@ -749,16 +682,14 @@ padding:18px 36px;
    DESCRIPTION
 ========================================== */
 
-.capability-card p{
+.capability-card p {
+    color: #667085;
 
-    color:#667085;
+    font-size: 1rem;
 
-    font-size:1rem;
+    line-height: 1.8;
 
-    line-height:1.8;
-
-    margin:0;
-
+    margin: 0;
 }
 
 
@@ -766,41 +697,34 @@ padding:18px 36px;
    ARROW
 ========================================== */
 
-.card-arrow{
+.card-arrow {
+    width: 54px;
+    height: 54px;
 
-    width:54px;
+    border-radius: 50%;
 
-    height:54px;
+    background: #071A3D;
+    color: #fff;
 
-    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    background:#071A3D;
+    font-size: 1.3rem;
 
-    color:#fff;
+    margin-top: auto;
 
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    font-size:1.3rem;
-
-    margin-top:auto;
-
-    transition:.35s ease;
-
+    transition: .35s ease;
 }
 
-.capability-card:hover .card-arrow{
+.capability-card:hover .card-arrow {
+    background: #14C6D4;
 
-    background:#14C6D4;
+    color: #071A3D;
 
-    color:#071A3D;
-
-    transform:translateX(6px);
-
+    transform: translateX(6px);
 }
+
 
 
 /* ==========================================
