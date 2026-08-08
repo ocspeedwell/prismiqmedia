@@ -2,10 +2,10 @@
    TABLET
 ========================================== */
 
-@media (max-width: 992px){  .capabilities{
+@media (max-width: 992px) {
 
-        padding:100px 0;
-
+    .capabilities {
+        padding: 100px 0;
     }
 
     .capabilities-intro {
@@ -26,331 +26,596 @@
         gap: 25px;
     }
 
-
-     
-
-    }
-   .why-grid{
-
-        grid-template-columns:1fr;
-
-        gap:50px;
+    .why-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 
-.work-grid{
+    .work-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-    grid-template-columns:repeat(2,1fr);
-
+    .impact-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
 
 }
 
-                          .impact-grid{
 
-    grid-template-columns:repeat(2,1fr);
-
-    gap:50px;
-
-}
-                          
- }   
-
-/* ===============================
+/* ==========================================
    MOBILE
-================================ */
+========================================== */
 
-@media (max-width:768px){
-.hero{
-    padding:160px 0 80px;
-   min-height:auto;
-}
+@media (max-width: 768px) {
 
-.hero-grid{
-    grid-template-columns:1fr;
-    gap:50px;
-}
+    /* --------------------------------------
+       GLOBAL
+    -------------------------------------- */
 
-.hero-content{
-    width:100%;
-    max-width:100%;
-}
-
-.hero-content h1{
-    font-size:3rem;
-    line-height:1.05;
-    letter-spacing:-1px;
-    word-break:break-word;
-   padding-top:20px;
-}
-
-.hero-content p{
-    font-size:1rem;
-}
-
-.hero-image{
-      margin-top:0;
-}
-
-.hero-image img{
-    width:100%;
-    max-width:100%;
-    transform:none;
-}
-    .navbar{
-
-        height:90px;
-       }
-   
-.hero h1{
-    font-size:3.3rem;
-    line-height:1;
-
-    }
-.hero-buttons{
-    margin-bottom:20px;
-}
-
-  
-.container{
-        width:100%;
-        padding:0 32px;
-        box-sizing:border-box;
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
-   
-    .nav-menu{
-
-        position:fixed;
-
-        top:0;
-
-        right:-100%;
-
-        width:80%;
-
-        height:100vh;
-
-        background:#071A3D;
-
-        display:flex;
-
-        flex-direction:column;
-
-        justify-content:center;
-
-        align-items:center;
-
-        gap:35px;
-
-        transition:.5s ease;
-
-        z-index:999;
-
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
     }
 
-    .nav-menu.active{
 
-        right:0;
+    /* --------------------------------------
+       CONTAINER
+    -------------------------------------- */
 
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 
-    .nav-menu a{
 
-        font-size:1.3rem;
+    /* --------------------------------------
+       NAVBAR
+    -------------------------------------- */
 
+    .navbar {
+        width: 100%;
+        height: 90px;
+        overflow: visible;
     }
 
-    .nav-button{
+    .navbar .container {
+        width: 100%;
+        height: 100%;
 
-        display:none;
-
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .menu-toggle{
+    .nav-menu {
+        position: fixed;
 
-        display:flex;
+        top: 0;
+        right: -100%;
 
+        width: 80%;
+        height: 100vh;
+
+        background: #071A3D;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 35px;
+
+        transition: right .4s ease;
+
+        z-index: 9999;
     }
-   
-      
-   .difference-grid{
 
-        grid-template-columns:1fr;
-
+    .nav-menu.active {
+        right: 0;
     }
-.difference-card{
-    padding:40px;
-}
 
-.section-heading{
-    text-align:left;
-    margin-bottom:50px;
-}
-
-.section-heading span{
-    display:block;
-    margin-bottom:15px;
-}
-
-.section-heading h2{
-    font-size:2.3rem;
-    line-height:1.2;
-    margin-bottom:20px;
-}
-
-.section-heading p{
-    font-size:1rem;
-    line-height:1.8;
-}
-
-.philosophy{
-    padding:80px 0;
-}
-       .capabilities{
-
-        padding:90px 0;
-
+    .nav-menu a {
+        font-size: 1.3rem;
     }
+
+    .nav-button {
+        display: none !important;
+    }
+
+    .menu-toggle {
+        display: flex !important;
+        position: relative;
+        z-index: 10000;
+    }
+
+
+    /* --------------------------------------
+       HERO
+    -------------------------------------- */
+
+    .hero {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 100px 0 70px;
+
+        min-height: auto;
+
+        overflow: hidden;
+    }
+
+    .hero-grid {
+        width: 100%;
+        max-width: 100%;
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
+        overflow: hidden;
+    }
+
+
+    /* --------------------------------------
+       HERO TAG
+    -------------------------------------- */
+
+    .hero-content .section-tag,
+    .hero .section-tag {
+
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+
+        font-size: .75rem;
+
+        line-height: 1.8;
+
+        letter-spacing: 4px;
+
+        white-space: normal;
+
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+
+    /* --------------------------------------
+       HERO HEADING
+    -------------------------------------- */
+
+    .hero-content h1,
+    .hero h1 {
+
+        width: 100%;
+        max-width: 100%;
+
+        font-size: clamp(3rem, 13vw, 4rem);
+
+        line-height: 1.02;
+
+        letter-spacing: -2px;
+
+        margin: 0 0 28px;
+
+        padding: 0;
+
+        white-space: normal;
+
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+
+    /* --------------------------------------
+       HERO PARAGRAPH
+    -------------------------------------- */
+
+    .hero-content p,
+    .hero p {
+
+        width: 100%;
+        max-width: 100%;
+
+        font-size: 1rem;
+
+        line-height: 1.8;
+
+        margin: 0 0 32px;
+
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+
+    /* --------------------------------------
+       HERO BUTTONS
+    -------------------------------------- */
+
+    .hero-buttons {
+
+        width: 100%;
+        max-width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 18px;
+
+        margin: 0;
+    }
+
+    .hero-buttons a,
+    .hero-buttons button {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+
+        box-sizing: border-box;
+
+        text-align: center;
+    }
+
+
+    /* --------------------------------------
+       HERO IMAGE
+    -------------------------------------- */
+
+    .hero-image {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin-top: 0;
+
+        overflow: hidden;
+    }
+
+    .hero-image img {
+
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+
+        height: auto;
+
+        transform: none;
+    }
+
+
+    /* --------------------------------------
+       DIFFERENCE
+    -------------------------------------- */
+
+    .difference-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .difference-card {
+        padding: 40px;
+    }
+
+
+    /* --------------------------------------
+       SECTION HEADING
+    -------------------------------------- */
+
+    .section-heading {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .section-heading span {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 2.3rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .section-heading p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+
+    /* --------------------------------------
+       PHILOSOPHY
+    -------------------------------------- */
+
+    .philosophy {
+        padding: 80px 0;
+    }
+
+
+    /* --------------------------------------
+       CAPABILITIES
+    -------------------------------------- */
 
     .capabilities {
+
+        width: 100%;
+        max-width: 100%;
+
         padding: 90px 0;
+
+        overflow: hidden;
     }
 
     .capabilities-intro {
+
         width: 100%;
         max-width: 100%;
+
         margin: 0 auto 55px;
+
         text-align: left;
     }
 
     .capabilities-intro .section-tag {
+
+        display: block;
+
         text-align: left;
+
         font-size: .78rem;
+
         letter-spacing: 4px;
+
         margin-bottom: 18px;
     }
 
     .capabilities-intro h2 {
+
+        width: 100%;
+        max-width: 100%;
+
         font-size: 2.35rem;
+
         line-height: 1.15;
+
         letter-spacing: -.8px;
+
         margin: 0 0 22px;
+
+        overflow-wrap: break-word;
     }
 
     .capabilities-intro p {
-        font-size: 1rem;
-        line-height: 1.8;
+
+        width: 100%;
         max-width: 100%;
+
+        font-size: 1rem;
+
+        line-height: 1.8;
+
         margin: 0;
     }
 
     .capabilities-grid {
+
+        width: 100%;
+        max-width: 100%;
+
         grid-template-columns: 1fr;
+
         gap: 24px;
     }
 
     .capability-card {
+
+        width: 100%;
+        max-width: 100%;
+
+        min-width: 0;
+
         padding: 36px;
+
         min-height: 360px;
     }
 
     .service-number {
+
         font-size: 3.5rem;
+
         margin-bottom: 30px;
     }
 
     .capability-card h3 {
+
         font-size: 1.8rem;
     }
 
-}
-    .why-prismiq{
 
-        padding:90px 0;
+    /* --------------------------------------
+       WHY PRISMIQ
+    -------------------------------------- */
 
+    .why-prismiq {
+
+        width: 100%;
+        max-width: 100%;
+
+        padding: 90px 0;
+
+        overflow: hidden;
     }
 
-    .why-content h2{
+    .why-grid {
 
-        font-size:2.5rem;
+        width: 100%;
+        max-width: 100%;
 
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
     }
 
-    .why-item{
+    .why-content {
 
-        gap:18px;
+        width: 100%;
+        max-width: 100%;
 
+        min-width: 0;
     }
 
-    .check{
+    .why-content h2 {
 
-        width:44px;
+        width: 100%;
+        max-width: 100%;
 
-        height:44px;
+        font-size: 2.5rem;
 
+        line-height: 1.1;
+
+        overflow-wrap: break-word;
     }
 
-    .stat-card{
+    .why-item {
 
-        padding:30px;
-
+        gap: 18px;
     }
 
+    .check {
 
+        width: 44px;
+        height: 44px;
 
-                          .work{
-
-    padding:90px 0;
-
-}
-
-.why-grid{
-        display:grid;
-        grid-template-columns:1fr;
-        gap:50px;
-    }
-
-     .why-content,
-    .why-stats{
-        width:100%;
-    }
-
-
-    .stat-card{
-        width:100%;
-        padding:32px;
-        box-sizing:border-box;
+        flex-shrink: 0;
     }
 
 
-.project-content{
+    /* --------------------------------------
+       WHY STATS
+    -------------------------------------- */
 
-    padding:28px;
+    .why-stats {
+
+        position: static !important;
+
+        width: 100%;
+        max-width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 24px;
+    }
+
+    .stat-card {
+
+        position: relative;
+
+        width: 100%;
+        max-width: 100%;
+
+        min-width: 0;
+
+        padding: 30px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* --------------------------------------
+       WORK
+    -------------------------------------- */
+
+    .work {
+
+        width: 100%;
+        max-width: 100%;
+
+        padding: 90px 0;
+
+        overflow: hidden;
+    }
+
+    .work-grid {
+
+        width: 100%;
+        max-width: 100%;
+
+        grid-template-columns: 1fr;
+
+        gap: 24px;
+    }
+
+    .project-card {
+
+        width: 100%;
+        max-width: 100%;
+
+        min-width: 0;
+    }
+
+    .project-content {
+
+        padding: 28px;
+    }
+
+    .project-content h3 {
+
+        font-size: 1.5rem;
+    }
+
+
+    /* --------------------------------------
+       IMPACT
+    -------------------------------------- */
+
+    .impact {
+
+        width: 100%;
+        max-width: 100%;
+
+        padding: 70px 0;
+
+        overflow: hidden;
+    }
+
+    .impact-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .impact-item h3 {
+
+        font-size: 3rem;
+    }
 
 }
-
-.project-content h3{
-
-    font-size:1.5rem;
-
-}
-                          .impact{
-
-    padding:70px 0;
-
-}
-
-.impact-grid{
-
-    grid-template-columns:1fr;
-
-    gap:45px;
-
-}
-
-.impact-item h3{
-
-    font-size:3rem;
-
-}
-}
-   
