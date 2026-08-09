@@ -912,7 +912,7 @@ display:flex;
 
     padding: 140px 0;
 
-    background: #071A3D;
+    background: #061633;
 
     color: #fff;
 
@@ -928,7 +928,7 @@ display:flex;
     max-width: 900px;
 
     margin-bottom: 75px;
-text-align: center;
+
 }
 
 .experience-intro .section-tag {
@@ -1273,7 +1273,7 @@ text-align: center;
 
 .impact{
 
-    background:#071A3D;
+    background:#ffffff;
 
     padding:90px 0;
 
@@ -1293,7 +1293,7 @@ text-align: center;
 
 .impact-item{
 
-    color:#fff;
+    color:#071A3D;
 
 }
 
@@ -1315,7 +1315,7 @@ text-align: center;
 
     content:"+";
 
-    color:#fff;
+    color:#071A3D;
 
     margin-left:4px;
 
@@ -1323,7 +1323,7 @@ text-align: center;
 
 .impact-item p{
 
-    color:rgba(255,255,255,.8);
+    color:#667085;
 
     font-size:1rem;
 
