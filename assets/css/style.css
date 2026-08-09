@@ -741,6 +741,374 @@ padding:18px 36px;
     }
 
 }
+
+/* ==========================================
+   POLITICAL COMMUNICATIONS
+========================================== */
+
+.political-communications{
+
+    position:relative;
+
+    padding:140px 0;
+
+    background:#071A3D;
+
+    color:#fff;
+
+    overflow:hidden;
+
+}
+
+.political-communications::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:650px;
+
+    height:650px;
+
+    right:-250px;
+
+    top:-250px;
+
+    border-radius:50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(20,198,212,.14),
+            transparent 70%
+        );
+
+    pointer-events:none;
+
+}
+
+.political-grid{
+
+    position:relative;
+
+    z-index:2;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:100px;
+
+    align-items:center;
+
+}
+
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+.political-content{
+
+    max-width:650px;
+
+}
+
+.political-content .section-tag{
+
+    display:block;
+
+    color:#14C6D4;
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+
+    margin-bottom:25px;
+
+}
+
+.political-content h2{
+
+    color:#fff;
+
+    font-family:'Poppins', sans-serif;
+
+    font-size:4rem;
+
+    line-height:1.08;
+
+    letter-spacing:-2px;
+
+    margin:0 0 30px;
+
+}
+
+.political-intro{
+
+    color:rgba(255,255,255,.88) !important;
+
+    font-size:1.15rem !important;
+
+    line-height:1.85 !important;
+
+    margin-bottom:25px !important;
+
+}
+
+.political-content p{
+
+    color:rgba(255,255,255,.68);
+
+    font-size:1rem;
+
+    line-height:1.8;
+
+    margin:0 0 40px;
+
+}
+
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.political-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:17px 28px;
+
+    border:1px solid rgba(20,198,212,.45);
+
+    border-radius:50px;
+
+    background:rgba(20,198,212,.08);
+
+    color:#14C6D4;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+.political-button span{
+
+    font-size:1.2rem;
+
+    transition:.35s ease;
+
+}
+
+.political-button:hover{
+
+    background:#14C6D4;
+
+    color:#071A3D;
+
+    border-color:#14C6D4;
+
+    transform:translateY(-3px);
+
+}
+
+.political-button:hover span{
+
+    transform:translateX(6px);
+
+}
+
+
+/* ==========================================
+   SERVICE LIST
+========================================== */
+
+.political-services{
+
+    display:flex;
+
+    flex-direction:column;
+
+    border-top:1px solid rgba(255,255,255,.12);
+
+}
+
+.political-service{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+    min-height:72px;
+
+    border-bottom:1px solid rgba(255,255,255,.12);
+
+    color:rgba(255,255,255,.86);
+
+    font-size:1rem;
+
+    transition:.3s ease;
+
+}
+
+.political-service:hover{
+
+    padding-left:10px;
+
+    color:#14C6D4;
+
+}
+
+.political-service-number{
+
+    width:35px;
+
+    flex-shrink:0;
+
+    color:#14C6D4;
+
+    font-size:.75rem;
+
+    font-weight:800;
+
+    letter-spacing:1px;
+
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:992px){
+
+    .political-communications{
+
+        padding:110px 0;
+
+    }
+
+    .political-grid{
+
+        grid-template-columns:1fr;
+
+        gap:65px;
+
+    }
+
+    .political-content{
+
+        max-width:800px;
+
+    }
+
+    .political-content h2{
+
+        font-size:3.3rem;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .political-communications{
+
+        padding:90px 0;
+
+    }
+
+    .political-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .political-content .section-tag{
+
+        font-size:.74rem;
+
+        letter-spacing:3.5px;
+
+        margin-bottom:20px;
+
+    }
+
+    .political-content h2{
+
+        font-size:2.55rem;
+
+        line-height:1.1;
+
+        letter-spacing:-1px;
+
+        margin-bottom:22px;
+
+    }
+
+    .political-intro{
+
+        font-size:1rem !important;
+
+        line-height:1.8 !important;
+
+    }
+
+    .political-content p{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+    .political-button{
+
+        width:100%;
+
+        justify-content:center;
+
+        box-sizing:border-box;
+
+    }
+
+    .political-service{
+
+        min-height:68px;
+
+        gap:17px;
+
+        font-size:.95rem;
+
+        line-height:1.5;
+
+    }
+
+    .political-service-number{
+
+        width:28px;
+
+    }
+
+}
 /* ==========================================
    WHY PRISMIQ
 ========================================== */
