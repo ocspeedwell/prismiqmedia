@@ -1249,6 +1249,23 @@ text-align: center;
 
 }
 
+@media (min-width: 993px) {
+    .experience-intro{
+        max-width: 1000px;
+        margin: 0 auto 75px;
+        text-align: center;
+    }
+
+    .experience-intro .section-tag{
+        display: block;
+        text-align: center;
+    }
+
+    .experience-intro h2,
+    .experience-intro p{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 /* ==========================================
    IMPACT
