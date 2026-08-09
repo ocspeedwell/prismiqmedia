@@ -538,9 +538,7 @@ padding:18px 36px;
     font-size:1rem;
 
 }
-/* ==========================================
-   CAPABILITIES
-========================================== */
+
 /* ==========================================
    CAPABILITIES
 ========================================== */
@@ -906,9 +904,6 @@ display:flex;
     line-height:1.8;
 
 }
-/* ==========================================
-   WORK
-========================================== */
 
 /* ==========================================
    SELECTED EXPERIENCE
@@ -934,11 +929,11 @@ display:flex;
     max-width: 900px;
 
     margin-bottom: 75px;
-
+text-align: center;
 }
 
 .experience-intro .section-tag {
-
+ text-align: center;
     display: block;
 
     color: #14C6D4;
