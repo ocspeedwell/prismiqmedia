@@ -722,6 +722,23 @@ padding:18px 36px;
     transform: translateX(6px);
 }
 
+@media (min-width: 993px) {
+    .capabilities-intro{
+        max-width: 1000px;
+        margin: 0 auto 75px;
+        text-align: center;
+    }
+
+    .capabilities-intro .section-tag{
+        display: block;
+        text-align: center;
+    }
+
+    .capabilities-intro h2,
+    .capabilities-intro p{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 /* ==========================================
