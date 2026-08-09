@@ -749,5 +749,147 @@
 
         gap: 15px;
 
-    }
+    }/* ==========================================
+   LET'S TALK MOBILE
+========================================== */
+
+.lets-talk{
+
+    padding:90px 0;
+
+}
+
+.lets-talk-content{
+
+    text-align:left;
+
+}
+
+.lets-talk h2{
+
+    font-size:2.7rem;
+
+    line-height:1.1;
+
+    letter-spacing:-1px;
+
+}
+
+.lets-talk p{
+
+    font-size:1rem;
+
+    line-height:1.8;
+
+}
+
+.lets-talk-button{
+
+    width:100%;
+
+    box-sizing:border-box;
+
+    justify-content:center;
+
+}
+
+
+
+/* ==========================================
+   CONTACT MOBILE
+========================================== */
+
+.contact{
+
+    padding:90px 0;
+
+}
+
+.contact-grid{
+
+    grid-template-columns:1fr;
+
+    gap:60px;
+
+}
+
+.contact-content{
+
+    padding-top:0;
+
+}
+
+.contact-content h2{
+
+    font-size:2.6rem;
+
+    line-height:1.1;
+
+}
+
+.contact-content > p{
+
+    font-size:1rem;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+}
+
+.contact-form-wrapper{
+
+    padding:28px;
+
+    border-radius:22px;
+
+}
+
+
+
+/* ==========================================
+   FOOTER MOBILE
+========================================== */
+
+.footer{
+
+    padding:70px 0 25px;
+
+}
+
+.footer-main{
+
+    grid-template-columns:1fr;
+
+    gap:45px;
+
+    padding-bottom:50px;
+
+}
+
+.footer-brand{
+
+    max-width:100%;
+
+}
+
+.footer-column h4{
+
+    margin-bottom:20px;
+
+}
+
+.footer-bottom{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+}
+
+.footer-links{
+
+    flex-wrap:wrap;
+
+}
 }
